@@ -2,7 +2,7 @@
 mern
    
 ## Running the back-end:
-     # To connect the backend with mogodb reference url in .env file then run the following command
+     //To connect the backend with mogodb reference url in .env file then run the following command//
      cd backend
      node server.js
 ## Finally running the front-end:

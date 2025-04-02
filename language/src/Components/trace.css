@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Nature.jpg);   
+    background-attachment: fixed;  
+    background-size: cover;   
+}
+
+#text{
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    width:575px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color:white;
+    height: 500px;
+    width:800px;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+.input-group {
+    margin-bottom: 20px;
+    
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+#language{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bt{
+   display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+.bt:hover{
+    background-color: rgb(106, 255, 0);
+    color:black;
+}
+.output {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 20px;
+}
+.his{
+    margin-top: 20%;
+    margin-left: 45%;
+}
+.his a{
+    text-decoration: none;
+    color: white;
+}
+.his a:hover{
+    color:black;
+}
